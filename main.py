@@ -14,7 +14,7 @@ print(f"Analyzing book found at {frank}...")
 print("----------- Word Count ----------") 
 
 word_count = get_num_words(frank_results)
-print(f"{word_count} words found in the document")
+print(f"Found {word_count} total words")
 
 print("--------- Character Count -------") 
 char_count = count_chars(frank_results)
